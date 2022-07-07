@@ -2,7 +2,7 @@
 As user-generated content on the internet increases, so does the spread of toxic comments. There is no formal definition of hate and abusive speeches but, the threat of abuse and harassment online means that many people limit expressing themselves and give up on seeking different opinions. Therefore, detecting toxic comments becomes an active research area, and it is often handled as a text classification task. As recent popular methods for text classification tasks, classification tasks, pre-trained language model-based methods are at the forefront of Natural Language Processing, achieving state-of-the-art performance on various NLP tasks. However, there is a paucity of studies using such methods on toxic comment classification. In this work, we study how to make use of pre-trained language model-based methods for toxic comment classification and the performances of different pre-trained language models on these tasks. This study introduces an ensemble approach, where we have made use of pre-trained models - DistilmBert and xlm-roberta-large-xnli to perform the toxic comment classification task. We trained our model on an English dataset and tested it on Wikipedia talk page comments in several languages and have achieved an accuracy of over 93%. 
 In order to test these models you can make submission on https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification.
 
-##Models
+## Modelling
 
 The works in the above three notebooks can be explained as:
 ### 1) DistilmBERT
